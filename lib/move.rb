@@ -8,7 +8,7 @@ end
 
 def input_to_index(num)
   new_num = num.to_i
-new_num -= 1
+new_num = -1
 return new_num
 end
 
